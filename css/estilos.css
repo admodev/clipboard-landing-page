@@ -3,6 +3,7 @@
   --azulClaro: hsl(233, 100%, 69%);
   --grisAzuladoOscuro: hsl(210, 10%, 33%);
   --grisAzulado: hsl(201, 11%, 66%);
+  --grisAzuladoFooter: hsl(0, 0%, 96%);
 }
 
 html {
@@ -51,6 +52,7 @@ html {
   font-family: 'Bai Jamjuree', sans-serif;
   font-weight: 400;
   transition: transform .2s;
+  border: 0;
 }
 
 .btn-1:hover {
@@ -67,6 +69,7 @@ html {
   font-family: 'Bai Jamjuree', sans-serif;
   font-weight: 400;
   transition: transform .2s;
+  border: 0;
 }
 
 .btn-2:hover {
@@ -216,7 +219,7 @@ section {
   font-size: 24px;
   text-align: center;
   font-weight: 600;
-  margin-top: 20px;
+  margin-top: 25px;
   color: var(--grisAzuladoOscuro);
 }
 
@@ -239,7 +242,7 @@ section {
   font-size: 24px;
   text-align: center;
   font-weight: 600;
-  margin-top: 20px;
+  margin-top: 25px;
   color: var(--grisAzuladoOscuro);
 }
 
@@ -280,6 +283,7 @@ section {
   font-family: 'Bai Jamjuree', sans-serif;
   font-weight: 400;
   transition: transform .2s;
+  border: 0;
 }
 
 .btn-1-2:hover {
@@ -296,9 +300,64 @@ section {
   font-family: 'Bai Jamjuree', sans-serif;
   font-weight: 400;
   transition: transform .2s;
+  border: 0;
 }
 
 .btn-2-2:hover {
   cursor: pointer;
   transform: scale(1.2);
+}
+
+footer {
+  background-color: var(--grisAzuladoFooter);
+  margin-top: 140px;
+}
+
+.logo-footer {
+  width: 50px;
+  position: relative;
+  float: left;
+  margin: 45px 180px 20px 120px;
+}
+
+.menu1 {
+  display: flex;
+  flex-direction: row;
+}
+
+.nav1 {
+  margin-top: 40px;
+  margin-left: 40px;
+  text-decoration: none;
+  font-family: 'Bai Jamjuree', sans-serif;
+  color: var(--grisAzuladoOscuro);
+}
+
+.menu2 {
+  display: flex;
+  flex-direction: row;
+}
+
+.nav2 {
+  margin-top: 20px;
+  margin-left: 37px;
+  text-decoration: none;
+  font-family: 'Bai Jamjuree', sans-serif;
+  color: var(--grisAzuladoOscuro);
+}
+
+.socialmedia {
+  display: flex;
+  flex-direction: row;
+  float: right;
+}
+
+.img-socialmedia {
+  margin-top: -50px!important;
+  margin: 12px;
+}
+
+.attribution {
+  position: relative;
+  margin-top: 40px;
 }
